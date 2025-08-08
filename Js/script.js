@@ -70,7 +70,22 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Buenos días, mi niña hermosa ❤️. Solo quería enviarte este mensaje para recordarte lo mucho que te amo y lo especial que eres para mí. Te deseo un hermoso Día de la Novia (Otra vez jsjs)y espero con ansias poder verte de nuevo. Besos 😘`;  } else {
+    text = `Hola amor ❤️
+
+  Estoy aquí para decirte: ¡FELIZ PRIMER MES DE ENAMORADOS! 🥳💖
+  Y también para darte las gracias por estar un mes a mi lado. Sé que pasó rápido y quizá no estuvimos tanto tiempo juntos, pero el tiempo que pasamos cerca el uno del otro lo disfruté muchísimo 🥰.
+  No sabes lo mucho que me gustas y lo cómodo que me haces sentir cuando estás a mi lado 🤗. Me gusta mucho cómo eres: tus manías, tus gustos, tu forma de hablar, tus ojitos chinitos cuando ríes 😍, cuando te enojas 😡 y cuando estás loquita 🤪, tu pelo desordenado, tus manos… podría seguir hablando de esto hasta cansarme o extrañarte mucho… y eso me pondría triste 🥺💔.
+
+  Lo otro que te quería decir es que… este primer mes junto a ti me ha hecho darme cuenta de lo mucho que significas para mí 💕. Me haces sentir tranquilo, feliz, emocionado… como si por fin estuviera en el lugar correcto, como si hubiera encontrado a esa persona especial que desde hace tiempo quería en mi vida ✨. Contigo todo se siente más bonito, más real 🌹.
+
+  A veces me quedo pensando en ti cuando no estás, imaginando cómo será cuando estemos juntos: nuestros abrazos 🤗, nuestros besos 😘, nuestras tonterías… y también nuestros silencios, porque aunque no lo creas amor, los silencios contigo se sienten bien. El simple hecho de saber que estás a mi lado me da paz y tranquilidad 🕊️💗.
+  No quiero que esto se quede solo en un mes; quiero que cada día sea una nueva experiencia para conocerte más, para hacerte reír 😂, para cuidarte 💞 y para seguir construyendo esto tan bonito que estamos empezando.
+
+  Sé que no somos perfectos, pero eso no me importa. Lo importante es que yo te amo 💖 y tú me amas, y sé que saldremos adelante en cualquier problema que tengamos 💪😊. Eso me hace muy feliz.
+
+  Así que gracias, amor 🌟. Por este mes, por tu forma de mirarme 👀✨, por tus mensajitos 📱, por tus bromas 😄, por ser tú. Ojalá vengan muchos meses más, muchos besos 💋, abrazos 🤗 y muchos “te amo” 💕.
+
+  Te amo mucho ❤️`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
